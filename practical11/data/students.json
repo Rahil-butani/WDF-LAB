@@ -1,0 +1,137 @@
+[
+  {
+    "studentID": "25CE001",
+    "name": "Aarav Patel",
+    "course": "Computer Engineering",
+    "semester": 3,
+    "email": "aarav@example.com",
+    "mobile": "9876543210",
+    "university": "CHARUSAT"
+  },
+  {
+    "studentID": "25CE002",
+    "name": "Diya Shah",
+    "course": "Information Technology",
+    "semester": 3,
+    "email": "diya@example.com",
+    "mobile": "9876543211",
+    "university": "CHARUSAT"
+  },
+  {
+    "studentID": "25CE003",
+    "name": "Krish Mehta",
+    "course": "Computer Engineering",
+    "semester": 3,
+    "email": "krish@example.com",
+    "mobile": "9876543212",
+    "university": "CHARUSAT"
+  },
+  {
+    "studentID": "25CE004",
+    "name": "Anaya Desai",
+    "course": "Information Technology",
+    "semester": 3,
+    "email": "anaya@example.com",
+    "mobile": "9876543213",
+    "university": "CHARUSAT"
+  },
+  {
+    "studentID": "25CE005",
+    "name": "Vivaan Joshi",
+    "course": "Computer Science",
+    "semester": 3,
+    "email": "vivaan@example.com",
+    "mobile": "9876543214",
+    "university": "CHARUSAT"
+  },
+  {
+    "studentID": "25CE006",
+    "name": "Myra Trivedi",
+    "course": "Electronics",
+    "semester": 3,
+    "email": "myra@example.com",
+    "mobile": "9876543215",
+    "university": "CHARUSAT"
+  },
+  {
+    "studentID": "25CE007",
+    "name": "Arjun Parmar",
+    "course": "Computer Engineering",
+    "semester": 3,
+    "email": "arjun@example.com",
+    "mobile": "9876543216",
+    "university": "CHARUSAT"
+  },
+  {
+    "studentID": "25CE008",
+    "name": "Sara Gandhi",
+    "course": "Information Technology",
+    "semester": 3,
+    "email": "sara@example.com",
+    "mobile": "9876543217",
+    "university": "CHARUSAT"
+  },
+  {
+    "studentID": "25CE009",
+    "name": "Reyansh Patel",
+    "course": "Computer Science",
+    "semester": 3,
+    "email": "reyansh@example.com",
+    "mobile": "9876543218",
+    "university": "CHARUSAT"
+  },
+  {
+    "studentID": "25CE010",
+    "name": "Aadhya Shah",
+    "course": "Electronics",
+    "semester": 3,
+    "email": "aadhya@example.com",
+    "mobile": "9876543219",
+    "university": "CHARUSAT"
+  },
+  {
+    "studentID": "25CE011",
+    "name": "Rahil Butani",
+    "course": "Information Technology",
+    "semester": 3,
+    "email": "rahil@example.com",
+    "mobile": "9876543220",
+    "university": "CHARUSAT"
+  },
+  {
+    "studentID": "25CE012",
+    "name": "Ishaan Modi",
+    "course": "Computer Engineering",
+    "semester": 3,
+    "email": "ishaan@example.com",
+    "mobile": "9876543221",
+    "university": "CHARUSAT"
+  },
+  {
+    "studentID": "25CE013",
+    "name": "Kiara Bhatt",
+    "course": "Information Technology",
+    "semester": 3,
+    "email": "kiara@example.com",
+    "mobile": "9876543222",
+    "university": "CHARUSAT"
+  },
+  {
+    "studentID": "25CE014",
+    "name": "Advik Soni",
+    "course": "Computer Science",
+    "semester": 3,
+    "email": "advik@example.com",
+    "mobile": "9876543223",
+    "university": "CHARUSAT"
+  },
+  {
+    "studentID": "25CE015",
+    "name": "Pari Thakkar",
+    "course": "Electronics",
+    "semester": 3,
+    "email": "pari@example.com",
+    "mobile": "9876543224",
+    "university": "CHARUSAT"
+  }
+]
