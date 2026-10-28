@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration | StudentHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>StudentHub</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="events.html">Events</a>
+            <a href="about.html">FAQs</a>
+            <a href="register.html">Registration</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="json-section">
+            <h2>Student Registration</h2>
+            <p>Enter your details to register with StudentHub.</p>
+
+            <form id="registerForm" action="register.php" method="POST">
+                <div class="form-group">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname"
+                        placeholder="Enter your full name"
+                        pattern="[A-Za-z][A-Za-z .'-]{1,59}"
+                        maxlength="60" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email"
+                        placeholder="Enter your email"
+                        maxlength="254" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="mobile">Mobile Number</label>
+                    <input type="tel" id="mobile" name="mobile"
+                        placeholder="Enter 10-digit mobile number"
+                        pattern="[0-9]{10}" maxlength="10" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="course">Course</label>
+                    <select id="course" name="course" required>
+                        <option value="">Select Course</option>
+                        <option value="IT">Information Technology</option>
+                        <option value="CE">Computer Engineering</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="year">Year</label>
+                    <select id="year" name="year" required>
+                        <option value="">Select Year</option>
+                        <option value="1">First Year</option>
+                        <option value="2">Second Year</option>
+                        <option value="3">Third Year</option>
+                        <option value="4">Fourth Year</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="gender">Gender</label>
+                    <select id="gender" name="gender" required>
+                        <option value="">Select Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password"
+                        placeholder="Enter password" minlength="8" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirm">Confirm Password</label>
+                    <input type="password" id="confirm" name="confirm"
+                        placeholder="Confirm password" minlength="8" required>
+                </div>
+
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" name="terms" value="yes" required>
+                        I agree to the terms and conditions.
+                    </label>
+                </div>
+
+                <button type="submit">Register</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>StudentHub Student Portal</p>
+    </footer>
+
+    <script src="js/register.js"></script>
+</body>
+</html>

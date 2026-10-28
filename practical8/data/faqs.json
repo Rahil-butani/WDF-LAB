@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "question": "What is StudentHub?",
+    "answer": "StudentHub is a student portal for academic information and campus updates.",
+    "category": "General"
+  },
+  {
+    "id": 2,
+    "question": "Who can use StudentHub?",
+    "answer": "Students can use StudentHub to explore the portal and its features.",
+    "category": "General"
+  },
+  {
+    "id": 3,
+    "question": "How do I register?",
+    "answer": "Open the Registration page and complete all required fields.",
+    "category": "Account"
+  },
+  {
+    "id": 4,
+    "question": "How do I access the login page?",
+    "answer": "Select the login link available on the portal.",
+    "category": "Account"
+  },
+  {
+    "id": 5,
+    "question": "Which information is needed for registration?",
+    "answer": "The form requests details such as name, email, mobile number, course and academic year.",
+    "category": "Account"
+  },
+  {
+    "id": 6,
+    "question": "Why does the form show validation errors?",
+    "answer": "Errors appear when required information is missing or does not match the expected format.",
+    "category": "Account"
+  },
+  {
+    "id": 7,
+    "question": "How can I view campus events?",
+    "answer": "Open the Events page to browse the event list.",
+    "category": "Events"
+  },
+  {
+    "id": 8,
+    "question": "Can I search for an event?",
+    "answer": "Yes, use the search box on the Events page.",
+    "category": "Events"
+  },
+  {
+    "id": 9,
+    "question": "Can I filter events by category?",
+    "answer": "Yes, choose a category from the event filter.",
+    "category": "Events"
+  },
+  {
+    "id": 10,
+    "question": "How is event data loaded?",
+    "answer": "JavaScript uses the Fetch API to load and parse JSON data.",
+    "category": "Technical"
+  },
+  {
+    "id": 11,
+    "question": "What is JSON?",
+    "answer": "JSON is a text format used to store and exchange structured data.",
+    "category": "Technical"
+  },
+  {
+    "id": 12,
+    "question": "What does the Fetch API do?",
+    "answer": "The Fetch API allows JavaScript to request data from files or web resources.",
+    "category": "Technical"
+  },
+  {
+    "id": 13,
+    "question": "What happens if data cannot be loaded?",
+    "answer": "The page displays an error message so the user knows the data could not be loaded.",
+    "category": "Technical"
+  },
+  {
+    "id": 14,
+    "question": "What is pagination?",
+    "answer": "Pagination divides a long list into smaller pages of results.",
+    "category": "Technical"
+  },
+  {
+    "id": 15,
+    "question": "Can I search FAQs?",
+    "answer": "Yes, use the FAQ search box to find questions by their text or category.",
+    "category": "General"
+  }
+]
