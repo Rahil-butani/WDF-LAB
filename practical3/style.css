@@ -1,0 +1,163 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #222;
+    background-color: #f4f6f8;
+}
+
+.site-header {
+    background-color: #17365d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.site-header h1 {
+    margin-top: 0;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav a:hover,
+nav a:focus {
+    text-decoration: underline;
+}
+
+.container {
+    width: 92%;
+    max-width: 1100px;
+    margin: 20px auto;
+}
+
+.welcome {
+    background-color: #dce8f5;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.card,
+.form-card {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.number {
+    font-size: 28px;
+    font-weight: bold;
+    color: #17365d;
+}
+
+.form-card {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+button,
+.button {
+    display: inline-block;
+    background-color: #17365d;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button:hover,
+.button:hover {
+    background-color: #24518a;
+}
+
+footer {
+    background-color: #17365d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+@media (min-width: 600px) {
+    .site-header {
+        padding: 25px;
+    }
+
+    nav {
+        gap: 20px;
+    }
+
+    .card-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .form-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 900px) {
+    .site-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .site-header h1 {
+        margin: 0;
+    }
+
+    .card-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .container {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
