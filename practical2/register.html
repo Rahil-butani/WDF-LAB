@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration</title>
+</head>
+<body>
+    <header>
+        <h1>StudentHub</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="register.html">Register</a> |
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Student Registration</h2>
+
+        <form action="dashboard.html" method="get">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+
+            <label for="studentid">Student ID:</label>
+            <input type="text" id="studentid" name="studentid" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone">
+            <br><br>
+
+            <label for="programme">Programme:</label>
+            <select id="programme" name="programme">
+                <option>Information Technology</option>
+                <option>Computer Engineering</option>
+                <option>Computer Science</option>
+            </select>
+            <br><br>
+
+            <label for="semester">Semester:</label>
+            <select id="semester" name="semester">
+                <option>Semester 1</option>
+                <option>Semester 2</option>
+                <option>Semester 3</option>
+                <option>Semester 4</option>
+                <option>Semester 5</option>
+                <option>Semester 6</option>
+                <option>Semester 7</option>
+                <option>Semester 8</option>
+            </select>
+            <br><br>
+
+            <button type="submit">Register</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>StudentHub | 25CE011</p>
+    </footer>
+</body>
+</html>
