@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentHub - About</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <h1>StudentHub</h1>
+        <nav class="navbar" id="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="register.html">Registration</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="events.html">Events</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="welcome">
+            <h2>About StudentHub</h2>
+            <p>StudentHub helps students explore campus information, student profiles and events.</p>
+        </section>
+
+        <section class="json-section">
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="json-controls">
+                <input type="search" id="faqSearch"
+                    placeholder="Search FAQs..."
+                    aria-label="Search frequently asked questions">
+
+                <select id="faqCategory" aria-label="Filter FAQs by category">
+                    <option value="all">All Categories</option>
+                    <option value="General">General</option>
+                    <option value="Account">Account</option>
+                    <option value="Events">Events</option>
+                    <option value="Technical">Technical</option>
+                </select>
+            </div>
+
+            <p id="faqStatus" role="status" aria-live="polite">
+                Loading FAQs...
+            </p>
+
+            <div id="faqList" class="json-grid"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>StudentHub | 25CE011</p>
+    </footer>
+
+    <script src="js/about.js"></script>
+</body>
+</html>
