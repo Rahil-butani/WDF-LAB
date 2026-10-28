@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentHub - Events</title>
+    <link rel="stylesheet" href="style.css?v=2">
+</head>
+<body>
+    <header class="site-header">
+        <h1>StudentHub</h1>
+        <nav class="navbar" id="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="register.html">Registration</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="events.html">Events</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="welcome">
+            <h2>Campus Events</h2>
+            <p>Explore workshops, seminars, competitions and other campus activities.</p>
+        </section>
+
+        <section class="json-section">
+            <h2>Explore Events</h2>
+
+            <div class="json-controls">
+                <input type="search" id="eventSearch"
+                    placeholder="Search events..." aria-label="Search events">
+
+                <select id="eventCategory" aria-label="Filter by category">
+                    <option value="all">All Categories</option>
+                    <option value="Workshop">Workshop</option>
+                    <option value="Competition">Competition</option>
+                    <option value="Seminar">Seminar</option>
+                    <option value="Exhibition">Exhibition</option>
+                    <option value="Meetup">Meetup</option>
+                </select>
+
+                <select id="eventSort" aria-label="Sort events">
+                    <option value="date-asc">Date: Earliest First</option>
+                    <option value="date-desc">Date: Latest First</option>
+                    <option value="title-asc">Title: A to Z</option>
+                    <option value="title-desc">Title: Z to A</option>
+                </select>
+            </div>
+
+            <p id="eventStatus" role="status" aria-live="polite">
+                Loading events...
+            </p>
+
+            <div id="eventList" class="json-grid"></div>
+
+            <div class="pagination">
+                <button type="button" id="eventPrev">Previous</button>
+                <span id="eventPageInfo">Page 1</span>
+                <button type="button" id="eventNext">Next</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>StudentHub | 25CE011</p>
+    </footer>
+
+    <script src="js/events.js"></script>
+</body>
+</html>

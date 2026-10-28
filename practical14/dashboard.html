@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentHub - Dashboard</title>
+    <link rel="stylesheet" href="style.css?v=2">
+</head>
+<body>
+    <header class="site-header">
+        <h1>StudentHub</h1>
+        <nav class="navbar" id="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="register.html">Registration</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="events.html">Events</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="welcome">
+            <h2>Student Dashboard</h2>
+            <p>Student information loaded dynamically from JSON data.</p>
+        </section>
+
+        <section class="json-section">
+            <h2>Student Profile</h2>
+
+            <p id="profileStatus" role="status" aria-live="polite">
+                Loading student profile...
+            </p>
+
+            <div id="studentProfile" class="json-card">
+                <p><strong>Name:</strong> <span id="studentName">-</span></p>
+                <p><strong>Student ID:</strong> <span id="studentID">-</span></p>
+                <p><strong>Course:</strong> <span id="studentCourse">-</span></p>
+                <p><strong>Semester:</strong> <span id="studentSemester">-</span></p>
+                <p><strong>Email:</strong> <span id="studentEmail">-</span></p>
+                <p><strong>Mobile:</strong> <span id="studentMobile">-</span></p>
+                <p><strong>University:</strong> <span id="studentUniversity">-</span></p>
+            </div>
+        </section>
+
+        <section class="json-section">
+            <h2>Student Directory</h2>
+
+            <div class="json-controls">
+                <input type="search" id="studentSearch"
+                    placeholder="Search by name or ID"
+                    aria-label="Search students">
+
+                <select id="studentCourseFilter" aria-label="Filter by course">
+                    <option value="all">All Courses</option>
+                    <option value="Computer Engineering">Computer Engineering</option>
+                    <option value="Information Technology">Information Technology</option>
+                    <option value="Computer Science">Computer Science</option>
+                    <option value="Electronics">Electronics</option>
+                </select>
+
+                <select id="studentSort" aria-label="Sort students">
+                    <option value="name-asc">Name: A to Z</option>
+                    <option value="name-desc">Name: Z to A</option>
+                    <option value="id-asc">Student ID: Ascending</option>
+                    <option value="id-desc">Student ID: Descending</option>
+                </select>
+            </div>
+
+            <p id="studentStatus" role="status" aria-live="polite">
+                Loading students...
+            </p>
+
+            <div id="studentList" class="json-grid"></div>
+
+            <div class="pagination">
+                <button type="button" id="studentPrev">Previous</button>
+                <span id="studentPageInfo">Page 1</span>
+                <button type="button" id="studentNext">Next</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>StudentHub | 25CE011</p>
+    </footer>
+
+    <script src="js/dashboard.js"></script>
+</body>
+</html>
