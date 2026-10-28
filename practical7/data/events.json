@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "Web Development Workshop",
+    "category": "Workshop",
+    "date": "2026-11-05",
+    "venue": "CSPIT Lab 1",
+    "description": "Learn the fundamentals of modern web development."
+  },
+  {
+    "id": 2,
+    "title": "Coding Competition",
+    "category": "Competition",
+    "date": "2026-11-08",
+    "venue": "Main Auditorium",
+    "description": "Solve programming problems and test your skills."
+  },
+  {
+    "id": 3,
+    "title": "Cybersecurity Awareness",
+    "category": "Seminar",
+    "date": "2026-11-10",
+    "venue": "Seminar Hall",
+    "description": "Understand common cyber threats and online safety."
+  },
+  {
+    "id": 4,
+    "title": "Project Exhibition",
+    "category": "Exhibition",
+    "date": "2026-11-12",
+    "venue": "Central Hall",
+    "description": "Explore projects developed by university students."
+  },
+  {
+    "id": 5,
+    "title": "Artificial Intelligence Talk",
+    "category": "Seminar",
+    "date": "2026-11-14",
+    "venue": "CSPIT Auditorium",
+    "description": "Discover applications of artificial intelligence."
+  },
+  {
+    "id": 6,
+    "title": "Robotics Workshop",
+    "category": "Workshop",
+    "date": "2026-11-17",
+    "venue": "Robotics Lab",
+    "description": "Learn about sensors, controllers and robotics."
+  },
+  {
+    "id": 7,
+    "title": "Inter-College Hackathon",
+    "category": "Competition",
+    "date": "2026-11-20",
+    "venue": "Innovation Centre",
+    "description": "Build a useful software project with a team."
+  },
+  {
+    "id": 8,
+    "title": "Career Guidance Session",
+    "category": "Seminar",
+    "date": "2026-11-22",
+    "venue": "Seminar Hall",
+    "description": "Explore career paths and technical opportunities."
+  },
+  {
+    "id": 9,
+    "title": "Open Source Meetup",
+    "category": "Meetup",
+    "date": "2026-11-24",
+    "venue": "Computer Lab 2",
+    "description": "Learn how to contribute to open-source projects."
+  },
+  {
+    "id": 10,
+    "title": "UI Design Challenge",
+    "category": "Competition",
+    "date": "2026-11-26",
+    "venue": "Design Studio",
+    "description": "Create an attractive and user-friendly interface."
+  },
+  {
+    "id": 11,
+    "title": "Cloud Computing Session",
+    "category": "Seminar",
+    "date": "2026-11-28",
+    "venue": "CSPIT Lab 3",
+    "description": "Understand cloud platforms and deployment."
+  },
+  {
+    "id": 12,
+    "title": "Database Design Workshop",
+    "category": "Workshop",
+    "date": "2026-12-02",
+    "venue": "Computer Lab 1",
+    "description": "Learn relational database design and SQL basics."
+  },
+  {
+    "id": 13,
+    "title": "Tech Quiz",
+    "category": "Competition",
+    "date": "2026-12-04",
+    "venue": "Main Auditorium",
+    "description": "Test your knowledge of technology and computing."
+  },
+  {
+    "id": 14,
+    "title": "Innovation Meetup",
+    "category": "Meetup",
+    "date": "2026-12-07",
+    "venue": "Innovation Centre",
+    "description": "Share ideas and discuss creative solutions."
+  },
+  {
+    "id": 15,
+    "title": "Final Year Project Showcase",
+    "category": "Exhibition",
+    "date": "2026-12-10",
+    "venue": "Central Hall",
+    "description": "View final-year projects and demonstrations."
+  }
+]
